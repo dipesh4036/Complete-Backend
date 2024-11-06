@@ -17,9 +17,9 @@ Day-2
 
   ```json
   "scripts": {
-    "start": "node app.js",        // Starts the application
-    "dev": "nodemon app.js",       // Starts the application with nodemon for auto-reloading during development
-    "build": "webpack --mode production",  // Bundles the application using webpack for production
-    "test": "mocha test"           // Runs tests using the Mocha testing framework
+    "start": "node app.js",        
+    "dev": "nodemon app.js",       
+    "build": "webpack --mode production",  
+    "test": "mocha test"          
   }
   ```
